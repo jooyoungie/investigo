@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Alike+Angular&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Almendra&display=swap');
+
+body{
+  background-image: url("../images/bg6.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y:hidden !important; //removes scroll vertical
+}
+
+#para6{
+  position: fixed;
+  width: 40%;
+  font-size: 18pt;
+  top: 5%;
+  left: 5%;
+  color: black;
+  font-family: 'Almendra', serif;
+}
+
+#para6 a{
+  text-decoration: none;
+}

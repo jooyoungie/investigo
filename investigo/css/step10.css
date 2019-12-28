@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Alike+Angular&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Almendra&display=swap');
+
+body{
+  background-image: url("../images/bg7.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y:hidden !important; //removes scroll vertical
+}
+
+
+p:hover{
+  transition: all .5s ease-in-out;
+  color: white;
+}
+
+.hoverin {
+  width: 25%;
+  overflow: hidden;
+}
+
+.hoverin img{
+  width: 25%;
+  height: 25%;
+  transition: all .2s ease-in-out;
+}
+
+.hoverin:hover img{
+  transform: scale(1.3,1.3);
+}
+
+#sparkle1{
+  position: fixed;
+  top: 20%;
+  right: 20%;
+}
+
+#sparkle2{
+  position: fixed;
+  top: 10%;
+  right: 15%;
+}
+
+#sparkle3{
+  position: fixed;
+  bottom: 50%;
+  right: 0%;
+}
+
+#sparkle4{
+  position: fixed;
+  top: 28%;
+  right: 6%;
+}
+
+#sparkle5{
+  position: fixed;
+  bottom: 70%;
+  left: 4%;
+}
+
+#sparkle6{
+  position: fixed;
+  top: 5%;
+  left: 5%;
+}
+
+#sparkle7{
+  position: fixed;
+  top: 5%;
+  right: 5%;
+}
+
+#sparkle8{
+  position: fixed;
+  top: 45%;
+  left: 4%;
+}
+
+#sparkle9{
+  position: fixed;
+  bottom: 35%;
+  left: 8%;
+}
+
+#lighthouse{
+  position: fixed;
+  top: 28%;
+  left: 43%;
+}
+
+#title{
+  position: fixed;
+  font-size: 140pt;
+  top: -70px;
+  left: 10%;
+  color: white;
+  line-height: 90%;
+  font-family: 'Alike Angular', serif;
+  text-decoration: none;
+}
+
+#paragraph{
+  position: fixed;
+  width: 20%;
+  font-size: 16pt;
+  top: 35%;
+  right: 10%;
+  color: #636363;
+  font-family: 'Almendra', serif;
+}
+
+.swipe {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 7s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+#title a{
+  text-decoration: none;
+}
+
+canvas {
+  width: 100vw;
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+}
