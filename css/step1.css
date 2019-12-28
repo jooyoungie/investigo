@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Alike+Angular&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Almendra&display=swap');
+
+body{
+  background-image: url("../images/bg1.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y:hidden !important; //removes scroll vertical
+  overflow-x:hidden !important;
+}
+
+#title{
+  position: fixed;
+  font-size: 140pt;
+  top: 120px;
+  left: 10%;
+  line-height: 90%;
+  color: black;
+  font-family: 'Alike Angular', serif;
+  text-decoration: none; !important;
+}
+
+#title a{
+  text-decoration: none;
+}
